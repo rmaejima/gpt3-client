@@ -3,7 +3,8 @@ import random
 
 
 def import_xlsx():
-    input_file_name = "input_sample.xlsx"
+    # input_file_name = "assets/input.xlsx"
+    input_file_name = "assets/input_sample.xlsx"
 
     input_book = pd.ExcelFile(input_file_name)
 
