@@ -7,7 +7,7 @@ def main():
     input_sheet_df = import_xlsx()  # DataFrame
 
     # Get random text by input_sheet_df
-    text_list = get_random_text(input_sheet_df, 3)
+    text_list = get_random_text(input_sheet_df, 2)
 
     # Create text by GPT3
     created_text_List = create_text_by_gpt3(text_list)
