@@ -15,7 +15,7 @@ def import_xlsx():
     return input_sheet_df  # DataFrame
 
 
-def get_random_text(input_sheet_df, create_num):
+def get_random_text(input_sheet_df: pd.DataFrame, create_num: int):
     input_len: int = len(input_sheet_df)
 
     random_int: list[int] = []
