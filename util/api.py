@@ -20,7 +20,9 @@ def create_text_by_gpt3(text_list):
     response = openai.Completion.create(
         engine="davinci",
         prompt=prompt,
-        max_tokens=500,  # Length of generations
+        stop=["。", "\n"],  # Token stop generating
+        frequency_penalty=0.2,  # Penalty of new token because would like to generate token not equal to other token
+        max_tokens=100,  # Length of generations
         n=3,  # The number of generations
     )
 

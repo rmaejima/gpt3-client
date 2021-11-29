@@ -1,5 +1,5 @@
-from functions.api import create_text_by_gpt3
-from functions.xlsx import get_random_text, import_xlsx
+from util.api import create_text_by_gpt3
+from util.xlsx import get_random_text, import_xlsx
 
 
 def main():
