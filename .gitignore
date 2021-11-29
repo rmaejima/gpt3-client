@@ -3,3 +3,6 @@
 
 # input xlsx
 input*.xlsx
+
+# export
+kaldi
