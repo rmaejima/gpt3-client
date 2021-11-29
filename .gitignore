@@ -2,4 +2,4 @@
 .env
 
 # input xlsx
-input.xlsx
+input*.xlsx
