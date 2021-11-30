@@ -23,7 +23,7 @@ def create_text_by_gpt3(text_list):
         stop=["。", "\n"],  # Token stop generating
         frequency_penalty=0.2,  # Penalty of new token because would like to generate token not equal to other token
         max_tokens=100,  # Length of generations
-        n=3,  # The number of generations
+        n=5,  # The number of generations
     )
 
     return response
